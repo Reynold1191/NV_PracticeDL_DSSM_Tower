@@ -19,8 +19,8 @@ This implementation works with datasets like **MovieLens 1M** or any custom user
 
 Each sample contains:
 - User features: `gender`, `age`, `occupation`
-- Item features: `genre`, `title` (bag-of-words or trigram embedding)
-- Label: binary click/view interaction
+- Item features: `genre`, `title` 
+- Label: binary 
 
 ---
 
