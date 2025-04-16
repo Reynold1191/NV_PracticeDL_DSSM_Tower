@@ -62,7 +62,7 @@ class MovieLens1MDataModule:
         data['user_id'] = le_user.fit_transform(data['user_id'])
         data['movie_id'] = le_movie.fit_transform(data['movie_id'])
         data['occupation'] = le_occ.fit_transform(data['occupation'])
-        data['age'] = le_occ.fit_transform(data['age'])
+        data['age'] = le_age.fit_transform(data['age'])
 
         full_dataset = MovieLens1MDataset(data)
 
