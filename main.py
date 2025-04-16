@@ -52,8 +52,9 @@ class MovieLens1MDataModule:
         movies['genres'] = le_genres.fit_transform(genres_split)
 
         data = ratings.merge(users, on='user_id').merge(movies, on='movie_id')
+        # data['label'] = (data['rating'] >= 4).astype('float32')
         data['label'] = (data['rating'] >= 4).astype('float32')
-
+        
         le_user = LabelEncoder()
         le_movie = LabelEncoder()
         le_occ = LabelEncoder()
