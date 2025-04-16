@@ -9,7 +9,7 @@ This repository implements a DSSM (Deep Structured Semantic Model) with **tower 
 
 - Dual-tower DSSM architecture (user tower + item tower)
 - Embedding for sparse features (e.g., gender, age, occupation, genres)
-- Each movie can have up to 6 genres, represented as a vector [g1, g2, g3, g4, g5, g6] — if any are missing, they will be padded with 0. Use EmbeddingBag or mean pooling to combine the 6 genre embeddings into one vector.
+- Each movie can have up to 6 genres, represented as a vector [g1, g2, g3, g4, g5, g6] — if any are missing, they will be padded with 0. Using mean pooling to combine the 6 genre embeddings into one vector.
 - MLP layers with dropout for regularization
 - Loss: `BCEWithLogitsLoss`
 - AUC, accuracy, and loss metrics for training/validation/testing
