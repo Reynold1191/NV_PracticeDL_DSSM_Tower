@@ -1,8 +1,11 @@
-# DSSM Tower Model for Recommendation
+# 📌 DSSM Tower Model for Recommendation
 
+## 🔍 Introduction
 This repository implements a DSSM (Deep Structured Semantic Model) with **tower architecture** using PyTorch Lightning. The model is trained to learn semantic representations of users and items for recommendation or matching tasks.
 
-## 📌 Features
+---
+
+## 📦 Features
 
 - Dual-tower DSSM architecture (user tower + item tower)
 - Embedding for sparse features (e.g., gender, age, occupation, genres)
@@ -39,7 +42,7 @@ python main.py
 ```
 ---
 
-## 📌 Performance
+## 📈 Performance
 | Metric  | Value  |
 |---------|--------|
 | Training loss | 0.578 |
