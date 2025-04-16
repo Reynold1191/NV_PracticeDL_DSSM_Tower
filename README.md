@@ -7,7 +7,7 @@ This repository implements a DSSM (Deep Structured Semantic Model) with **tower 
 - Dual-tower DSSM architecture (user tower + item tower)
 - Embedding for sparse features (e.g., gender, age, occupation, genres)
 - MLP layers with dropout for regularization
-- Custom loss: `BCEWithLogitsLoss`
+- Loss: `BCEWithLogitsLoss`
 - AUC, accuracy, and loss metrics for training/validation/testing
 - PyTorch Lightning for cleaner training loop and logging
 
