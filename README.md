@@ -37,7 +37,8 @@ python main.py
 | Training loss | 0.578 |
 | Val loss | 0.595 |
 
-### Visualizations
+![Out1](res/res_training.png)
+![Out2](res/tensorboard.png)
 
 ---
 
@@ -48,6 +49,8 @@ python main.py
 | Test Loss | 0.593 |
 | Test AUC | 78.15% |
 | Test ACC | 71.46% |
+
+![Out3](res/res_test.png)
 
 ---
 
