@@ -29,11 +29,27 @@ Each sample contains:
 ```bash
 python main.py
 ```
+---
 
-### Training results
+## 📌 Performance
+| Metric  | Value  |
+|---------|--------|
+| Training loss | 0.578 |
+| Val loss | 0.595 |
 
+### Visualizations
+
+---
 
 ## 🧪 Test Results
+
+| Metric  | Value  |
+|---------|--------|
+| Test Loss | 0.593 |
+| Test AUC | 78.15% |
+| Test ACC | 71.46% |
+
+---
 
 ## 🛠️ Requirements
 
