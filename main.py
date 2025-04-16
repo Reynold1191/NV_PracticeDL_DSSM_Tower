@@ -154,7 +154,7 @@ class DSSM_Tower(pl.LightningModule):
         self.log('val_loss', loss, prog_bar=True, on_epoch=True, on_step=False)
 
     def test_step(self, batch, batch_idx):
-        labels = batch['label'].float()
+        labels = batch['label']
         output = self.forward(batch) * 10
 
         # Eval metrics including Loss, ACC, AUC
