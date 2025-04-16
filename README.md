@@ -24,6 +24,14 @@ Each sample contains:
 
 ---
 
+## 🛠️ Requirements
+
+```bash
+pip install pytorch_lightning
+```
+
+---
+
 ## 🚀 Training
 
 ```bash
@@ -51,11 +59,3 @@ python main.py
 | Test ACC | 71.46% |
 
 ![Out3](res/res_test.png)
-
----
-
-## 🛠️ Requirements
-
-```bash
-pip install pytorch_lightning
-```
