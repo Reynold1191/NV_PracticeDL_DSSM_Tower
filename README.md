@@ -45,11 +45,11 @@ python main.py
 ## 📈 Performance
 | Metric  | Value  |
 |---------|--------|
-| Training loss | 0.578 |
-| Val loss | 0.595 |
+| Training loss | 0.584 |
+| Val loss | 0.594 |
 
 ![Out1](res/res_training.png)
-![Out2](res/tensorboard.png)
+![Out2](res/res.png)
 
 ---
 
@@ -57,8 +57,8 @@ python main.py
 
 | Metric  | Value  |
 |---------|--------|
-| Test Loss | 0.593 |
-| Test AUC | 78.15% |
-| Test ACC | 71.46% |
+| Test Loss | 0.594 |
+| Test AUC | 77.84% |
+| Test ACC | 71.61% |
 
 ![Out3](res/res_test.png)
