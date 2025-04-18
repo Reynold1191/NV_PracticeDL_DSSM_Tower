@@ -215,3 +215,44 @@ python main.py
 
 ### Tanh V3 model
 ![Out9](res/res_test_v3.png)
+
+---
+
+## 🔬 observation - Why Dropout Before is Better
+
+| Reason | Explanation |
+|--------|-----------|
+| Gradient Flow | Dropout before linear layers ensures better gradient flow, as the dropped units directly affect weight updates. |
+| Training Stability | Activations like ReLU or Tanh can produce sparse outputs. Applying dropout afterward can excessively zero out features. |
+| More Information Retention | Inputs to the linear layer retain more expressive power and diversity when dropout is applied before. |
+| Empirical Evidence | Many modern architectures (e.g., Transformer, DSSM, DeepFM) place dropout before linear layers and observe better convergence. |
+| Regularizes Inputs, Not Outputs | The goal is to regularize the input to the layer—not destroy the carefully learned output of the activation. |
+
+Dropout is input noise — and noise is most effective when added before learning (the linear transformation), not after.
+
+---
+
+## 📖 References
+
+1. Hinton, G. E., Srivastava, N., Krizhevsky, A., Sutskever, I., & Salakhutdinov, R. (2012).  
+   **Improving neural networks by preventing co-adaptation of feature detectors**.  
+   *arXiv preprint arXiv:1207.0580*  
+   [Link](https://arxiv.org/abs/1207.0580)
+
+2. Srivastava, N., Hinton, G., Krizhevsky, A., Sutskever, I., & Salakhutdinov, R. (2014).  
+   **Dropout: A Simple Way to Prevent Neural Networks from Overfitting**.  
+   *Journal of Machine Learning Research, 15*, 1929-1958.  
+   [Link](http://jmlr.org/papers/v15/srivastava14a.html)
+
+3. Vaswani, A., Shazeer, N., Parmar, N., Uszkoreit, J., Jones, L., Gomez, A. N., ... & Polosukhin, I. (2017).  
+   **Attention Is All You Need**.  
+   *Advances in Neural Information Processing Systems (NeurIPS)*.  
+   [Link](https://arxiv.org/abs/1706.03762)
+
+4. Huang, P., He, X., Gao, J., Deng, L., Acero, A., & Heck, L. (2013).  
+   **Learning deep structured semantic models for web search using clickthrough data**.  
+   *Proceedings of the 22nd ACM International Conference on Information & Knowledge Management (CIKM)*.  
+   [Link](https://www.microsoft.com/en-us/research/publication/learning-deep-structured-semantic-models-for-web-search-using-clickthrough-data/)
+
+
+
