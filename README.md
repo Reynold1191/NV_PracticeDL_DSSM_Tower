@@ -96,7 +96,7 @@ Sequential(
 )
 ```
 
-### 🧱 Structure Tanh (w mlp[256, 256, 256] and xavier_normal_ )  model - Dropout **After** Tanh Activation
+### 🧱 Structure Tanh (w mlp[256, 256, 256] and xavier_normal_ )  model - Dropout **After** Tanh Activation - Tanh V2 Model
 
 ```python
 Sequential(
@@ -129,7 +129,7 @@ Sequential(
 )
 ```
 
-### 🧱 Structure Tanh (w mlp[256, 256, 256] and xavier_normal_ )  model - Dropout **Before** Linear Layer 
+### 🧱 Structure Tanh (w mlp[256, 256, 256] and xavier_normal_ )  model - Dropout **Before** Linear Layer - Tanh V3 Model
 
 ```python
 Sequential(
@@ -171,11 +171,13 @@ python main.py
 ```
 ---
 
-## 📈 Performance (best results are in bold)
+## 📈 Performance (best results are underlined)
 | Model  | Training Loss  | Val Loss |
 |--------|----------------|----------|
-| ReLU (w mlp[300, 300, 128]) | 0.588 | 0.593 |
-| Tanh (w mlp[256, 256, 256]) | **0.556** | **0.548** |
+| **ReLU (w mlp[300, 300, 128])** | 0.588 | 0.593 |
+| **Tanh (w mlp[256, 256, 256])** | 0.556 | 0.548 |
+| **Tanh V2** | 0.526 | 0.548 |
+| **Tanh V3** | _0.494_ | _0.515_ |
 
 ### ReLU (w mlp[300, 300, 128]) model
 ![Out1](res/res_training.png)
@@ -183,19 +185,33 @@ python main.py
 ### Tanh (w mlp[256, 256, 256]) model
 ![Out2](res/res_training_tanh.png)
 
-## Comparision
-![Out3](res/res_compare.png)
+### Tanh V2 model
+![Out3](res/res_training_v2.png)
+
+### Tanh V3 model
+![Out4](res/res_training_v3.png)
+
+### Comparision
+![Out5](res/res_compare_final.png)
 
 ---
 
-## 🧪 Test Results (best results are in bold)
+## 🧪 Test Results (best results are in underlined)
 | Model  | Test Loss | Test AUC | Test ACC |
 |--------|-----------|----------|----------|
-| ReLU (w mlp[300, 300, 128]) | 0.594 | 77.84% | 71.61% |
-| Tanh (w mlp[256, 256, 256]) | **0.550** | **79.51%** | **73.04%** |
+| **ReLU (w mlp[300, 300, 128])** | 0.594 | 77.84% | 71.61% |
+| **Tanh (w mlp[256, 256, 256])** | 0.550 | 79.51% | 73.04% |
+| **Tanh V2** | 0.552 | 81.58% | 74.42% |
+| **Tanh V3** | _0.514_ | _81.74_ | _74.56_ |
 
 ### ReLU (w mlp[300, 300, 128]) model
-![Out4](res/res_test.png)
+![Out6](res/res_test.png)
 
 ### Tanh (w mlp[256, 256, 256]) model
-![Out5](res/res_test_tanh.png)
+![Out7](res/res_test_tanh.png)
+
+### Tanh V2 model
+![Out8](res/res_test_v2.png)
+
+### Tanh V3 model
+![Out9](res/res_test_v3.png)
