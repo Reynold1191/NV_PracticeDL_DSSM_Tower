@@ -43,7 +43,7 @@ python main.py
 ```
 ---
 
-## 📈 Performance (the best results are in bold)
+## 📈 Performance (best results are in bold)
 | Model  | Training Loss  | Val Loss |
 |--------|----------------|----------|
 | ReLU (w mlp[300, 300, 128]) | 0.588 | 0.593 |
@@ -60,7 +60,7 @@ python main.py
 
 ---
 
-## 🧪 Test Results (the best results are in bold)
+## 🧪 Test Results (best results are in bold)
 | Model  | Test Loss | Test AUC | Test ACC |
 |--------|-----------|----------|----------|
 | ReLU (w mlp[300, 300, 128]) | 0.594 | 77.84% | 71.61% |
