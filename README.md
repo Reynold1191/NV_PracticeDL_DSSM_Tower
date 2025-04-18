@@ -9,22 +9,7 @@ This repository implements a DSSM (Deep Structured Semantic Model) with **tower 
 
 - Dual-tower DSSM architecture (user tower + item tower)
 - Embedding for sparse features (e.g., gender, age, occupation, genres)
-- Label: rating In Markdown, to use the >= operator or display it, simply place it within backticks for code formatting, like this:
-`>=`
-
-
-This will display the operator >= exactly as you want, keeping it as part of a code block or inline code. If you're using it in a larger code snippet, just include it naturally within the relevant context:
-# Example: Using >= in Markdown
-```python
-if value >= threshold:
-    print("Value meets or exceeds the threshold")
-
-
-
-Let me know if you need more guidance with Markdown syntax! 😊
-
-
- 4
+- Label: rating >= 4 `>=`
 - Each movie can have up to 6 genres, represented as a vector [g1, g2, g3, g4, g5, g6] — if any are missing, they will be padded with 0. Using mean pooling to combine the 6 genre embeddings into one vector.
 - MLP layers with dropout for regularization
 - Loss: `BCEWithLogitsLoss`
