@@ -103,29 +103,29 @@ Sequential(
   (0): Linear(in_features=256, out_features=256, bias=True)
   (1): BatchNorm1d(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
   (2): Tanh()
-  (3): Dropout(p=0.2, inplace=False)
+  (3): Dropout(p=0.3, inplace=False)
   (4): Linear(in_features=256, out_features=256, bias=True)
   (5): BatchNorm1d(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
   (6): Tanh()
-  (7): Dropout(p=0.2, inplace=False)
+  (7): Dropout(p=0.3, inplace=False)
   (8): Linear(in_features=256, out_features=256, bias=True)
   (9): BatchNorm1d(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
   (10): Tanh()
-  (11): Dropout(p=0.2, inplace=False)
+  (11): Dropout(p=0.3, inplace=False)
 )
 Sequential(
   (0): Linear(in_features=128, out_features=256, bias=True)
   (1): BatchNorm1d(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
   (2): Tanh()
-  (3): Dropout(p=0.2, inplace=False)
+  (3): Dropout(p=0.3, inplace=False)
   (4): Linear(in_features=256, out_features=256, bias=True)
   (5): BatchNorm1d(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
   (6): Tanh()
-  (7): Dropout(p=0.2, inplace=False)
+  (7): Dropout(p=0.3, inplace=False)
   (8): Linear(in_features=256, out_features=256, bias=True)
   (9): BatchNorm1d(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
   (10): Tanh()
-  (11): Dropout(p=0.2, inplace=False)
+  (11): Dropout(p=0.3, inplace=False)
 )
 ```
 
@@ -202,7 +202,7 @@ python main.py
 | **ReLU (w mlp[300, 300, 128])** | 0.594 | 77.84% | 71.61% |
 | **Tanh (w mlp[256, 256, 256])** | 0.550 | 79.51% | 73.04% |
 | **Tanh V2** | 0.552 | 81.58% | 74.42% |
-| **Tanh V3** | _0.514_ | _81.74_ | _74.56_ |
+| **Tanh V3** | _0.514_ | _81.74%_ | _74.56%_ |
 
 ### ReLU (w mlp[300, 300, 128]) model
 ![Out6](res/res_test.png)
