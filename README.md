@@ -191,7 +191,7 @@ python main.py
 ### Tanh V3 model
 ![Out4](res/res_training_v3.png)
 
-### Comparision
+### Comparisions
 ![Out5](res/res_compare_final.png)
 
 ---
