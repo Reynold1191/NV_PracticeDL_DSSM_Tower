@@ -244,12 +244,7 @@ Dropout is input noise — and noise is most effective when added before learnin
    *Journal of Machine Learning Research, 15*, 1929-1958.  
    [Link](http://jmlr.org/papers/v15/srivastava14a.html)
 
-3. Vaswani, A., Shazeer, N., Parmar, N., Uszkoreit, J., Jones, L., Gomez, A. N., ... & Polosukhin, I. (2017).  
-   **Attention Is All You Need**.  
-   *Advances in Neural Information Processing Systems (NeurIPS)*.  
-   [Link](https://arxiv.org/abs/1706.03762)
-
-4. Huang, P., He, X., Gao, J., Deng, L., Acero, A., & Heck, L. (2013).  
+3. Huang, P., He, X., Gao, J., Deng, L., Acero, A., & Heck, L. (2013).  
    **Learning deep structured semantic models for web search using clickthrough data**.  
    *Proceedings of the 22nd ACM International Conference on Information & Knowledge Management (CIKM)*.  
    [Link](https://www.microsoft.com/en-us/research/publication/learning-deep-structured-semantic-models-for-web-search-using-clickthrough-data/)
