@@ -96,7 +96,7 @@ Sequential(
 )
 ```
 
-### 🧱 Structure Tanh (w mlp[256, 256, 256] and xavier_normal_ )  model - Dropout **After** Tanh Activation - Tanh V2 Model
+### 🧱 Structure Tanh (w mlp[256, 256, 256], BatchNorm1d and xavier_normal_ )  model - Dropout **After** Tanh Activation - Tanh V2 Model
 
 ```python
 Sequential(
@@ -129,7 +129,7 @@ Sequential(
 )
 ```
 
-### 🧱 Structure Tanh (w mlp[256, 256, 256] and xavier_normal_ )  model - Dropout **Before** Linear Layer - Tanh V3 Model
+### 🧱 Structure Tanh (w mlp[256, 256, 256, BatchNorm1d and xavier_normal_  )  model - Dropout **Before** Linear Layer - Tanh V3 Model
 
 ```python
 Sequential(
