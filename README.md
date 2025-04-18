@@ -171,12 +171,12 @@ python main.py
 ```
 ---
 
-## 📈 Performance (best results are underlined)
+## 📈 Performance (The best values are italicized)
 | Model  | Training Loss  | Val Loss |
 |--------|----------------|----------|
 | **ReLU (w mlp[300, 300, 128])** | 0.588 | 0.593 |
 | **Tanh (w mlp[256, 256, 256])** | 0.556 | 0.548 |
-| **Tanh V2** | <u>0.526</u> | 0.548 |
+| **Tanh V2** | 0.526 | 0.548 |
 | **Tanh V3** | _0.494_ | _0.515_ |
 
 ### ReLU (w mlp[300, 300, 128]) model
@@ -196,7 +196,7 @@ python main.py
 
 ---
 
-## 🧪 Test Results (best results are in underlined)
+## 🧪 Test Results (The best values are italicized)
 | Model  | Test Loss | Test AUC | Test ACC |
 |--------|-----------|----------|----------|
 | **ReLU (w mlp[300, 300, 128])** | 0.594 | 77.84% | 71.61% |
