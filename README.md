@@ -219,7 +219,7 @@ python main.py
 
 ---
 
-## 🔬 observation - Why Dropout Before is Better
+## 🔬 Observation - Why Dropout Before is Better
 
 | Reason | Explanation |
 |--------|-----------|
