@@ -44,13 +44,19 @@ python main.py
 ---
 
 ## 📈 Performance
-| Metric  | Value  |
-|---------|--------|
-| Training loss | 0.584 |
-| Val loss | 0.594 |
+| Model  | Training Loss  | Val Loss |
+|--------|----------------|----------|
+| ReLU (w mlp[300, 300, 128]) | 0.584 | 0.594 |
+| Tanh (w mlp[256, 256, 256]) | 0.548 | 0.556 |
 
+### ReLU (w mlp[300, 300, 128]) model
 ![Out1](res/res_training.png)
-![Out2](res/res.png)
+
+### Tanh (w mlp[256, 256, 256]) model
+![Out2](res/res_training_tanh.png)
+
+## Comparision
+![Out3](res/res_compare.png)
 
 ---
 
@@ -62,4 +68,8 @@ python main.py
 | Test AUC | 77.84% |
 | Test ACC | 71.61% |
 
-![Out3](res/res_test.png)
+### ReLU (w mlp[300, 300, 128]) model
+![Out4](res/res_test.png)
+
+### Tanh (w mlp[256, 256, 256]) model
+![Out5](res/res_test_tanh.png)
