@@ -46,7 +46,7 @@ python main.py
 ## 📈 Performance
 | Model  | Training Loss  | Val Loss |
 |--------|----------------|----------|
-| ReLU (w mlp[300, 300, 128]) | 0.584 | 0.594 |
+| ReLU (w mlp[300, 300, 128]) | 0.588 | 0.593 |
 | Tanh (w mlp[256, 256, 256]) | 0.548 | 0.556 |
 
 ### ReLU (w mlp[300, 300, 128]) model
