@@ -43,7 +43,7 @@ Here are some comparision between four model structures
 
 ---
 
-### 🧱 Structure ReLU (w mlp[300, 300, 128]) model
+### 🧱 Structure of ReLU (w mlp[300, 300, 128]) model
 
 ```python
 Sequential(
@@ -70,7 +70,7 @@ Sequential(
 )
 ```
 
-### 🧱 Structure Tanh (w mlp[256, 256, 256]) model
+### 🧱 Structure of Tanh (w mlp[256, 256, 256]) model
 
 ```python
 Sequential(
@@ -97,7 +97,7 @@ Sequential(
 )
 ```
 
-### 🧱 Structure Tanh (w mlp[256, 256, 256], BatchNorm1d and xavier_normal_ )  model - Dropout **After** Tanh Activation - Tanh V2 Model
+### 🧱 Structure of Tanh (w mlp[256, 256, 256], BatchNorm1d and xavier_normal_ )  model - Dropout **After** Tanh Activation - Tanh V2 Model
 
 ```python
 Sequential(
@@ -130,7 +130,7 @@ Sequential(
 )
 ```
 
-### 🧱 Structure Tanh (w mlp[256, 256, 256, BatchNorm1d and xavier_normal_  )  model - Dropout **Before** Linear Layer - Tanh V3 Model
+### 🧱 Structure of Tanh (w mlp[256, 256, 256, BatchNorm1d and xavier_normal_  )  model - Dropout **Before** Linear Layer - Tanh V3 Model
 
 ```python
 Sequential(
