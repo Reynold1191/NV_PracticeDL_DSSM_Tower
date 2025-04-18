@@ -43,11 +43,11 @@ python main.py
 ```
 ---
 
-## 📈 Performance
+## 📈 Performance (the best results are in bold)
 | Model  | Training Loss  | Val Loss |
 |--------|----------------|----------|
 | ReLU (w mlp[300, 300, 128]) | 0.588 | 0.593 |
-| Tanh (w mlp[256, 256, 256]) | 0.548 | 0.556 |
+| Tanh (w mlp[256, 256, 256]) | **0.548** | **0.556** |
 
 ### ReLU (w mlp[300, 300, 128]) model
 ![Out1](res/res_training.png)
@@ -60,12 +60,11 @@ python main.py
 
 ---
 
-## 🧪 Test Results
-
+## 🧪 Test Results (the best results are in bold)
 | Model  | Test Loss | Test AUC | Test ACC |
 |--------|-----------|----------|----------|
 | ReLU (w mlp[300, 300, 128]) | 0.594 | 77.84% | 71.61% |
-| Tanh (w mlp[256, 256, 256]) | 0.550 | 79.51% | 73.04% |
+| Tanh (w mlp[256, 256, 256]) | **0.550** | **79.51%** | **73.04%** |
 
 ### ReLU (w mlp[300, 300, 128]) model
 ![Out4](res/res_test.png)
