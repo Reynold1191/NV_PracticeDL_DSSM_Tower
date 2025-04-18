@@ -62,11 +62,10 @@ python main.py
 
 ## 🧪 Test Results
 
-| Metric  | Value  |
-|---------|--------|
-| Test Loss | 0.594 |
-| Test AUC | 77.84% |
-| Test ACC | 71.61% |
+| Model  | Test Loss | Test AUC | Test ACC |
+|--------|-----------|----------|----------|
+| ReLU (w mlp[300, 300, 128]) | 0.594 | 77.84% | 71.61% |
+| Tanh (w mlp[256, 256, 256]) | 0.550 | 79.51% | 73.04% |
 
 ### ReLU (w mlp[300, 300, 128]) model
 ![Out4](res/res_test.png)
