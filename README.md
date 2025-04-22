@@ -41,7 +41,6 @@ pip install pytorch_lightning
 
 Here are some comparision between four model structures
 
----
 
 ### 🧱 Structure of ReLU (w mlp[300, 300, 128]) model
 
