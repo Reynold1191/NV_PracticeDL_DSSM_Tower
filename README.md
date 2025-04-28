@@ -41,6 +41,7 @@ pip install pytorch_lightning
 
 Here are some comparision between four model structures
 
+<details> <summary>Click to expand!</summary>
 
 ### 🧱 Structure of ReLU (w mlp[300, 300, 128]) model
 
@@ -161,6 +162,8 @@ Sequential(
   (11): Tanh()
 )
 ```
+
+</details>
 
 ---
 
